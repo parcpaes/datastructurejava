@@ -40,4 +40,8 @@ public class Stack<V> {
         if(isEmpty()) return null;
         return array[top--];
     }
+
+    public V[] toArray(){
+        return array;
+    }
 }
